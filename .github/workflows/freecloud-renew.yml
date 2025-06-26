@@ -9,7 +9,7 @@ on:
         default: true
         type: boolean
   schedule:
-    - cron: "0 2 * * *"  # 每天早上10点（UTC+8北京时间）执行，建议大家随机修改“2”这个时间，不一定要跟我一样
+    - cron: "0 4 * * *"  # 每天早上10点（UTC+8北京时间）执行，建议大家随机修改“2”这个时间，不一定要跟我一样
 
 jobs:
   renew:
